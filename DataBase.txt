@@ -1,0 +1,28 @@
+1. create table reader(username varchar2(20) not null primary key, password varchar2(20) not null,
+fullname varchar2(30) not null, phone varchar2(10) not null)
+
+READER: 	USERNAME	VARCHAR2	20	-	-	1	-	-	-
+ 	        PASSWORD	VARCHAR2	20	-	-	-	-	-	-
+ 	        FULLNAME	VARCHAR2	30	-	-	-	-	-	-
+ 	        PHONE	    VARCHAR2	10
+
+2. create table books(bid varchar2(5) not null primary key, bname varchar2(30) not null,
+baurth varchar2(30) not null, bgen varchar2(30) not null)
+
+BOOKS:   	BID	    VARCHAR2	5	-	-	1	-	-	-
+ 	        BNAME	VARCHAR2	30	-	-	-	-	-	-
+ 	        BAURTH	VARCHAR2	30	-	-	-	-	-	-
+ 	        BGEN	VARCHAR2	30
+
+
+3. create table admin(username varchar2(20) not null primary key, password varchar2(20) not null)
+
+ADMIN:  	USERNAME	VARCHAR2	20	-	-	1	-	-	-
+ 	        PASSWORD	VARCHAR2	20
+
+4. create table bookis(bookingid varchar2(5), bookname varchar2(30), userid varchar2(20), bookname varchar2(20))
+
+BOOKIS:   BOOKINGID	    VARCHAR2	5	-	-	1	-	-	-
+          BOOKNAME	    VARCHAR2	30	-	-	-	-	-	-
+          USERID	    VARCHAR2	20	-	-	-	-	-	-
+          BOOKINGDATE	VARCHAR2

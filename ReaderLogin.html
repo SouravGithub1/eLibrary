@@ -1,0 +1,119 @@
+<!Doctype Html>  
+<Html>     
+<Head>      
+<Title>Reader Login </Title>  
+<style type=text/css>   
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+background-size: cover;  
+font-family: sans-serif;  
+}  
+header {  
+background-color: orange;  
+position: fixed; 
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 50px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 35px 0 cyan;  
+}  
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 30px;  
+}  
+header li a {  
+color: blue;  
+padding: 15px 10px;
+text-decoration: none;  
+}  
+header a:hover   
+{   
+background-color: white;   
+}  
+.div1
+{
+float:left;
+} 
+.div2
+{
+display:flex;
+flex-wrap: wrap;
+}
+    
+</style>   
+</Head>  
+
+<Body style="color:white;" background="images/library1.jpg">   
+<header>  
+<nav>  
+<ul>  
+<li>  
+<a href="Home.html"> Home </a>  
+</li>  
+<li>  
+<a href="Admin Login.html"> Admin </a>  
+</li>  
+<li>  
+<a href="ReaderLogin.html"> User </a>  
+</li> 
+<li> </li> 
+<li> </li> 
+<li> </li> 
+<li> </li> 
+<li> </li> 
+<li> </li> 
+<li> </li> 
+<li> </li> 
+<li> </li> 
+<li> </li>
+<li> </li> 
+<li> </li> 
+<li> </li> 
+<li> </li>
+<li> </li> 
+<li> </li> 
+<li> <a href="https://www.google.co.in/"> Log Out </a>  
+</li>  
+</ul>  
+</nav>  
+</header> 
+
+<h1 style="font-size:60px;">eLibrary</h1>
+<div id="div1">
+<h2 style="text-decoration:underline;">User Login</h2>
+<form action="ULogin" method="post">
+  
+  <label for="username" >User Name:</label><br>
+  <input type="text" placeholder="abcd@gmail.com" id="username" name="username"><br>
+  <label for="passwprd">Password:</label><br>
+  <input type="Password" placeholder="password" id="password" name="password"><br><br>
+  <input type="submit" value="LogIn">
+
+</form> 
+</div>
+
+<div id="div2">
+<h2 style="text-decoration:underline;">User Register</h2>
+<form action="Register" method="post">
+  
+  <label for="username">User Name:</label><br>
+  <input type="text" id="username" placeholder="abc@gmail.com" name="username"><br>
+  <label for="passwprd">Password:</label><br>
+  <input type="password" id="password" placeholder="password" name="password"><br>
+  <label for="fullname">Full Name:</label><br>
+  <input type="text" id="fullname" placeholder="Full Name" name="fullname"><br>
+  <label for="phone">Phone Number:</label><br>
+  <input type="text" id="phone" placeholder="Phone Number" name="phone"><br><br>
+  <input type="submit" value="Register">
+
+</form>
+</div>
+
+</Body> 
+</Html>  
